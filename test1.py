@@ -1,7 +1,7 @@
-class car:
-    model='BMW'
-    engine=1.6
-
-a1=car()
-a2=car()
-print(a1.model)
+class Cat():
+    def __init__(self, collor='black', name='cat'):
+        self.collor=collor
+        self.name=name
+        
+cat1=Cat('grey','vasy')
+print(cat1.name)
